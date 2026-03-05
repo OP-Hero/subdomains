@@ -8,11 +8,35 @@
 
 
 function addLinks() {
-    addLink("Check out my modrinth", "https://modrinth.com/user/OP_Hero");
+    addLink("");
     addLink("-----------------------------");
-    addLink("Join my Discord server", "https://discord.gg/7TNTK6uBdP");
+    addLink("List of official domains");
     addLink("-----------------------------");
-    addLink("Follow me on GitHub", "https://github.com/OP-Hero");
+    addLink("");
+    addLink("");
+    addLink("ophero.uk");
+    addLink("www.ophero.uk");
+    addLink("");
+    addLink("-----------------------------");
+    addLink("List of official <i>minecraft<br>server</i> domains");
+    addLink("-----------------------------");
+    addLink("cabin.ophero.uk");
+    addLink("create.ophero.uk");
+    addLink("landing.ophero.uk");
+    addLink("mc.ophero.uk");
+    addLink("wtmm.ophero.uk");
+    addLink("");
+    addLink("-----------------------------");
+    addLink("List of official <i>hytale<br>server</i> domains");
+    addLink("-----------------------------");
+    addLink("hytale.ophero.uk");
+    addLink("");
+    addLink("-----------------------------");
+    addLink("Any subdomains not listed<br>here are given to friends<br>and not official.");
+    addLink("-----------------------------");
+    addLink("note: the subdomain name and<br>content is their own to<br> manage. Therefore will i <i>NOT</i><br>take <i>ANY</i> responsibillity for<br>neither the subdomain name<br>nor it's content.");
+    addLink("-----------------------------");
+    addLink("");
     addLink("");
     addLink("");
     addLink("");
@@ -20,13 +44,9 @@ function addLinks() {
 }
 
 
-function addLink(text, link = false) {
+function addLink(text) {
     let card = document.getElementById("links");
     let linkElem = document.createElement("a");
-    
-    if (link) {
-        linkElem.href = link;
-    }
     
     linkElem.innerHTML = text;
     linkElem.classList.add("link");

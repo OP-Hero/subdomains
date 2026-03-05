@@ -14,11 +14,6 @@
     src: url(glitch.ttf);
 }
 
-@font-face {
-    font-family: Bastard;
-    src: url(bastard.ttf);
-}
-
 :root {
     --clr-bg: #120020;
     --clr-lg: #160030;
@@ -94,20 +89,20 @@ body {
 
 .card-fade {
     background: linear-gradient(to top, var(--clr-lg), transparent);
-    width: 80%;
+    width: 100%;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
     position: absolute;
     height: 100px;
     display: block;
     bottom: 0;
-    left: 10%;
-    right: 10%;
     pointer-events: none;
     z-index: 2;
 }
 
 .link {
     color: var(--text-color);
-    font-family: Bastard;
+    font-family: Glitch;
     font-size: 48px;
     text-decoration: none;
     
